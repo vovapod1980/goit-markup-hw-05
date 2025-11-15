@@ -444,7 +444,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
 
-/*footer*/
+/* #region footer */
 
 .page-footer {
   background-color: #2e2f42;
@@ -511,3 +511,29 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-left: 0;
   gap: 16px;
 }
+/* #endregion footer */
+
+/* #region popup */
+.backdrop {
+  position: fixed;
+  z-index: 99999;
+  top: 0;
+  left: 0;
+  background-color: rgba(46, 47, 66, 0.4);
+  height: 100%;
+  width: 100%;
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.popup-review {
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
+background-color: #fcfcfc;
+border-radius: 4px;
+width: 408px;
+height: 80%;
+max-height: 584px;
+
+}
+/* #endregion popup */
