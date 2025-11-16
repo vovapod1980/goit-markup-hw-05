@@ -484,24 +484,72 @@
     </footer>
 
     <!-- #region popup -->
-    <div class="backdrop">
+    <div class="backdrop is-open">
       <div class="popup-review">
         <p class="popup-title">Leave your contacts and we will call you back</p>
-        <button class="close-popup" type="button">x</button>
+        <button class="close-popup" type="button">
+          <svg class="close-popup-icon" width="8" height="8">
+            <use href="./images/icons.svg#icon-close-black"></use>
+          </svg>
+        </button>
         <form>
-          <div>
+          <div class="form-field-wrapper">
             <label class="label-field" for="username">Name</label>
-            <input type="text" id="username" name="username" />
+            <div class="field-wrapper">
+              <input
+                class="text-field"
+                type="text"
+                id="username"
+                name="username"
+              />
+              <svg class="field-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+            </div>
           </div>
-          <div>
+          <div class="form-field-wrapper">
             <label class="label-field" for="usertel">Phone</label>
-            <input type="tel" id="usertel" name="usertel" />
+            <div class="field-wrapper">
+              <input
+                class="text-field"
+                type="tel"
+                id="usertel"
+                name="usertel"
+              />
+              <svg class="field-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
           </div>
-          <div>
+          <div class="form-field-wrapper">
             <label class="label-field" for="useremail">Email</label>
-            <input type="email" id="useremail" name="useremail" />
+            <div class="field-wrapper">
+              <input
+                class="text-field"
+                type="email"
+                id="useremail"
+                name="useremail"
+              />
+              <svg class="field-icon" width="18" height="24">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </div>
           </div>
-          <div></div>
+          <div class="form-field-wrapper">
+            <label class="label-field" for="comment">Comment</label>
+            <textarea
+              name="comment"
+              id="comment"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+          <div class="form-field-wrapper">
+            <input type="checkbox" id="policy" name="policy" value="true" />
+            <label for="policy">
+              I accept the terms and conditions of the
+              <a href="" class="privacy-policy">Privacy Policy</a>
+            </label>
+          </div>
           <button type="submit" class="button-submit-popup">Send</button>
         </form>
       </div>
