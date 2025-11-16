@@ -485,8 +485,26 @@
 
     <!-- #region popup -->
     <div class="backdrop">
-      <div class="popup-review"></div>
-      >
+      <div class="popup-review">
+        <p class="popup-title">Leave your contacts and we will call you back</p>
+        <button class="close-popup" type="button">x</button>
+        <form>
+          <div>
+            <label class="label-field" for="username">Name</label>
+            <input type="text" id="username" name="username" />
+          </div>
+          <div>
+            <label class="label-field" for="usertel">Phone</label>
+            <input type="tel" id="usertel" name="usertel" />
+          </div>
+          <div>
+            <label class="label-field" for="useremail">Email</label>
+            <input type="email" id="useremail" name="useremail" />
+          </div>
+          <div></div>
+          <button type="submit" class="button-submit-popup">Send</button>
+        </form>
+      </div>
     </div>
 
     <!-- #endregion popup -->
