@@ -709,6 +709,11 @@ stroke:none;
 fill:#4D5AE5;
       }
 
+.form-field-comment {
+  margin-bottom: 16px;
+}
+
+
       .comment-textarea {
 border: 1px solid rgba(46, 47, 66, 0.4);
 border-radius: 4px;
