@@ -480,11 +480,35 @@
             </li>
           </ul>
         </div>
+
+        <div class="footer-div-email">
+          <p class="footer-social-description footer-subscribe-description">
+            Subscribe
+          </p>
+          <label for="usemail">
+            <input
+              class="txt-field"
+              type="email"
+              id="usemail"
+              name="usemail"
+              placeholder="E-mail"
+            />
+          </label>
+          <button
+            type="submit"
+            class="button-submit-popup button-footer-subsribe"
+          >
+            Subscribe
+            <svg class="footer-subscribe" width="24" height="24">
+              <use href="./images/icons.svg#icon-subscribe"></use>
+            </svg>
+          </button>
+        </div>
       </div>
     </footer>
 
     <!-- #region popup -->
-    <div class="backdrop is-open">
+    <div class="backdrop">
       <div class="popup-review">
         <p class="popup-title">Leave your contacts and we will call you back</p>
         <button class="close-popup" type="button">
@@ -545,8 +569,19 @@
             ></textarea>
           </div>
           <div class="form-field-wrapper">
-            <input type="checkbox" id="policy" name="policy" value="true" />
-            <label class="" for="policy">
+            <input
+              class="policy-checkbox visually-hidden"
+              type="checkbox"
+              id="policy"
+              name="policy"
+              value="true"
+            />
+            <label class="policy-label" for="policy">
+              <span class="custom-checkbox">
+                <svg width="10" height="8">
+                  <use href="./images/icons.svg#icon-vector-check"></use>
+                </svg>
+              </span>
               I accept the terms and conditions of the
               <a href="#" class="privacy-policy">Privacy Policy</a>
             </label>
