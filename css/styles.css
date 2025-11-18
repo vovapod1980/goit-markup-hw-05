@@ -513,11 +513,14 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-div-email {
-    display: flex;
     bottom: 0;
   margin-left: auto;
   margin-top: 100px;
   margin-bottom: 132;
+}
+
+.footer-form-email {
+  display: flex;
 }
 
 footer-subscribe-description {
