@@ -272,9 +272,7 @@ a {
 
 .team-image {
   display: block;
-  padding-bottom: 32px;
-  padding-top: 32px;
-  }
+    }
 
 .team-div-titdes {
     padding: 32px 0;
@@ -488,14 +486,12 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-description {
-  font-weight: 700;
-  font-size: 16px;
+   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
-  margin-bottom: 16px;
-  }
+   }
 
 .footer-social-description {
   font-weight: 500;
@@ -515,7 +511,6 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .footer-div-email {
     bottom: 0;
   margin-left: auto;
-  margin-top: 100px;
   margin-bottom: 132;
 }
 
@@ -598,7 +593,6 @@ align-items: center;
 background-color: #fcfcfc;
 border-radius: 4px;
 width: 408px;
-height: 80%;
 min-height: 584px;
 transform: translate(-50%, -50%);
 transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -610,8 +604,6 @@ padding: 72px 24px 24px 24px;
 }
 
 .form-field-wrapper {
-  margin-left: 24px;
-margin-right: 24px;
   margin-bottom: 8px;
 }
 
@@ -622,7 +614,6 @@ margin-right: 24px;
   letter-spacing: 0.02em;
 text-align: center;
 color: #2e2f42;
-padding: 72px 24px 12px;
 margin-bottom: 16px;
 }
 
@@ -785,7 +776,7 @@ color: #4d5ae5;
 
 .button-submit-popup {
 display: block;
-margin: 24px auto;
+margin: 0 auto;
   border-radius: 4px;
 padding: 16px 32px;
 min-width: 169px;
